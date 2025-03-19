@@ -7,3 +7,9 @@ A Golan API Docker image building with podman.
 ```
 podman build -t podman-docker .
 ```
+
+##### Kubernetes publish build command:
+
+```
+podman play kube <file-name>.yml
+```
